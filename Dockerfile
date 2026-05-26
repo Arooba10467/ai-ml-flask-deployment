@@ -12,4 +12,4 @@ RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/c
 
 EXPOSE 5000
 
-CMD ["python", "app/flask_api.py"]
+CMD ["python", "flask_api.py"]
